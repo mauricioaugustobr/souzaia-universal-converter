@@ -1,0 +1,23 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pastas de arquivos temporários do usuário
+uploads/*
+!uploads/.gitkeep
+outputs/*
+!outputs/.gitkeep
+temp_test_suite/
+*.log
+
+# IDE e Configurações do Sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

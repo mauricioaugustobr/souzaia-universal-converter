@@ -1,0 +1,13 @@
+.git
+.venv
+__pycache__
+*.pyc
+uploads/*
+!uploads/.gitkeep
+outputs/*
+!outputs/.gitkeep
+temp_test_suite
+.system_generated
+*.log
+iniciar_conversor.bat
+iniciar_conversor_desktop.bat

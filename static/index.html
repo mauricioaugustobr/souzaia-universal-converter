@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOUZAIA Universal Converter | Alta Fidelidade</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <script>
+    if (window.tailwind) {
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: '#eef2ff',
+                500: '#6366f1',
+                600: '#4f46e5',
+                700: '#4338ca',
+              }
+            }
+          }
+        }
+      };
+    }
+  </script>
+</head>
+<body class="selection:bg-indigo-500 selection:text-white">
+
+  <!-- Top Navbar -->
+  <header class="border-b border-white/5 bg-slate-950/60 backdrop-blur-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <div class="flex items-center gap-3">
+        <div class="w-11 h-11 rounded-xl bg-gradient-to-tr from-indigo-600 via-indigo-500 to-cyan-400 p-0.5 shadow-lg shadow-indigo-500/25 flex items-center justify-center">
+          <div class="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center">
+            <svg class="w-6 h-6 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/>
+            </svg>
+          </div>
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="text-xl font-extrabold tracking-tight bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
+              SOUZAIA
+            </span>
+            <span class="text-xs px-2 py-0.5 rounded-full bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 font-bold tracking-wider uppercase">
+              Pro Converter
+            </span>
+          </div>
+          <p class="text-xs text-slate-400">Conversor Universal de Mídia & Documentos</p>
+        </div>
+      </div>
+
+      <!-- Quality Badge & Privacy Notice -->
+      <div class="hidden sm:flex items-center gap-4 text-xs">
+        <div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-300">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span>100% Local & Seguro</span>
+        </div>
+        <div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-800/80 border border-slate-700/60 text-slate-300">
+          <span>Alta Fidelidade de Qualidade</span>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    
+    <!-- Hero Header -->
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <h1 class="text-3xl sm:text-5xl font-black text-white tracking-tight mb-4">
+        Converta qualquer arquivo para <br>
+        <span class="bg-gradient-to-r from-indigo-400 via-cyan-400 to-emerald-400 bg-clip-text text-transparent">
+          qualquer extensão com máxima qualidade
+        </span>
+      </h1>
+      <p class="text-slate-400 text-base sm:text-lg">
+        Documentos, Fotos, Áudios e Vídeos. Sem perda de nitidez, com aceleração FFmpeg, interpolação Lanczos e diagramação de alta precisão.
+      </p>
+    </div>
+
+    <!-- Supported Pillars Cards -->
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
+      
+      <!-- Video Card -->
+      <div class="glass-panel p-4 flex items-center gap-3">
+        <div class="p-2.5 rounded-xl bg-rose-500/10 border border-rose-500/20 text-rose-400">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+        </div>
+        <div>
+          <h4 class="font-bold text-sm text-slate-200">Vídeos</h4>
+          <p class="text-xs text-slate-400">MP4, MKV, WEBM, MOV, GIF, AVI</p>
+        </div>
+      </div>
+
+      <!-- Audio Card -->
+      <div class="glass-panel p-4 flex items-center gap-3">
+        <div class="p-2.5 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-400">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"/></svg>
+        </div>
+        <div>
+          <h4 class="font-bold text-sm text-slate-200">Áudios</h4>
+          <p class="text-xs text-slate-400">MP3 (320k), FLAC, WAV, AAC, OGG</p>
+        </div>
+      </div>
+
+      <!-- Image Card -->
+      <div class="glass-panel p-4 flex items-center gap-3">
+        <div class="p-2.5 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+        </div>
+        <div>
+          <h4 class="font-bold text-sm text-slate-200">Fotos & Imagens</h4>
+          <p class="text-xs text-slate-400">PNG, JPG, WEBP, ICO, SVG, TIFF</p>
+        </div>
+      </div>
+
+      <!-- Document Card -->
+      <div class="glass-panel p-4 flex items-center gap-3">
+        <div class="p-2.5 rounded-xl bg-indigo-500/10 border border-indigo-500/20 text-indigo-400">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        </div>
+        <div>
+          <h4 class="font-bold text-sm text-slate-200">Documentos</h4>
+          <p class="text-xs text-slate-400">PDF, DOCX, TXT, MD, CSV, XLSX</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Dropzone Area -->
+    <div id="dropzone" class="dropzone p-10 sm:p-14 text-center mb-10">
+      <input type="file" id="fileInput" class="hidden" multiple>
+      
+      <div class="w-16 h-16 rounded-2xl bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 mx-auto flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"/>
+        </svg>
+      </div>
+
+      <h3 class="text-lg sm:text-xl font-bold text-slate-100 mb-2">
+        Arraste e solte seus arquivos aqui ou clique para selecionar
+      </h3>
+      <p class="text-sm text-slate-400 max-w-md mx-auto mb-4">
+        Suporta envio em lote de múltiplos arquivos ao mesmo tempo. Você também pode colar com <kbd class="px-2 py-0.5 rounded bg-slate-800 text-xs text-indigo-300 font-mono border border-slate-700">Ctrl + V</kbd>.
+      </p>
+
+      <button type="button" class="btn-primary text-sm px-6 py-2.5">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/></svg>
+        Escolher Arquivos do Computador
+      </button>
+    </div>
+
+    <!-- Queue & Processing Section -->
+    <section>
+      
+      <!-- Queue Header Bar -->
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+        
+        <!-- Tabs Filter -->
+        <div class="flex items-center gap-1.5 p-1 bg-slate-900/60 border border-slate-800 rounded-xl overflow-x-auto">
+          <button class="filter-tab px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-indigo-600 text-white transition" data-filter="all">
+            Todos <span id="queueCountBadge" class="ml-1 px-1.5 py-0.2 rounded-full bg-white/20 text-[10px]">0</span>
+          </button>
+          <button class="filter-tab px-3.5 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition" data-filter="video">
+            Vídeos
+          </button>
+          <button class="filter-tab px-3.5 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition" data-filter="audio">
+            Áudios
+          </button>
+          <button class="filter-tab px-3.5 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition" data-filter="image">
+            Fotos / Imagens
+          </button>
+          <button class="filter-tab px-3.5 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition" data-filter="document">
+            Documentos
+          </button>
+        </div>
+
+        <!-- Batch Action Buttons -->
+        <div class="flex items-center gap-3">
+          <button 
+            id="btnClearCompleted" 
+            class="btn-secondary text-xs py-2 px-3 text-slate-400 hover:text-slate-200"
+            style="display: none;"
+          >
+            Limpar Concluídos
+          </button>
+
+          <button 
+            id="btnDownloadZip" 
+            disabled 
+            class="btn-secondary text-xs py-2 px-3 border-emerald-500/40 text-emerald-300 hover:bg-emerald-500/10"
+            style="opacity: 0.5;"
+          >
+            <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+            Baixar Todos (.ZIP) <span class="zip-count font-bold"></span>
+          </button>
+
+          <button 
+            id="btnConvertAll" 
+            disabled 
+            class="btn-primary text-xs py-2 px-4"
+            style="opacity: 0.5;"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            Converter Tudo
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Empty State -->
+      <div id="emptyState" class="glass-panel p-12 text-center border-dashed">
+        <div class="w-12 h-12 rounded-full bg-slate-800/80 border border-slate-700/60 text-slate-500 mx-auto flex items-center justify-center mb-3">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"/></svg>
+        </div>
+        <h4 class="font-semibold text-slate-300 mb-1">Nenhum arquivo na fila</h4>
+        <p class="text-xs text-slate-500 max-w-sm mx-auto">
+          Adicione documentos, fotos, músicas ou vídeos acima para iniciar a conversão instantânea.
+        </p>
+      </div>
+
+      <!-- Dynamic File Items Queue -->
+      <div id="queueContainer" class="space-y-4"></div>
+
+    </section>
+
+  </main>
+
+  <!-- Toast Notifications Container -->
+  <div id="toastContainer" class="fixed bottom-6 right-6 z-50 flex flex-col gap-2 max-w-md pointer-events-none"></div>
+
+  <!-- App Script -->
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
